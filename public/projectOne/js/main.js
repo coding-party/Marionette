@@ -48,6 +48,7 @@ var FormView = Backbone.Marionette.ItemView.extend({
 
 HRLab.addRegions({
 	form: '#form'
+
 });
 
 HRLab.addInitializer(function(){
