@@ -1,0 +1,24 @@
+$module: '.form';
+#{$module}{
+	label,
+	input{
+		display: block;
+		margin: 18px 0;
+	}
+
+	input{
+		padding: 9px 15px;
+	 	-webkit-box-sizing: border-box;
+	  	-moz-box-sizing: border-box;
+  		box-sizing: border-box;
+  		border: 1px solid #ccc;
+  		width: 100%;
+	}
+	button{
+    	padding: 10px 40px;
+    	background: #5bc0de;
+    	border: 0px;
+    	color: #fff;
+	}
+
+}

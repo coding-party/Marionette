@@ -1,0 +1,80 @@
+
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test-Template</title>
+
+    <link rel="stylesheet" href="/public/projectOne/css/main.min.css">
+</head>
+
+<body>
+
+<div class="row group">
+    <div class="col col-12">
+        
+        <header class="header">
+    <div class="header__container">
+        <div class="header__container--logo">
+        </div>
+    </div>
+</header>
+    </div>
+</div>
+<main class="container">
+    <div class="form">
+        <div id="form"></div>
+        <div id="list"></div>
+        
+        <script id="formView" type="text/template">
+    <h2>New User</h2>
+    <label for="name">Name:</label>
+    <input type="text" id="name" />
+    <label for="age">Age:</label>
+    <input type="text" id="age" />
+    <button>Submit</button>
+</script>
+    </div>
+
+    <div>
+        
+        <script id="userView" type="text/template">
+	<p>Name: <%= name %></p>
+	<p>Age: <%= age %></p>
+	<div class="remove"></div>
+</script>
+    
+        
+        <script id="usersView" type="text/template">
+	<h2>Users</h2>
+</script>
+        <div class="listItem__placeholder">
+            
+            <script id="NoUsersView" type="text/template">
+	<span class="placeholder">No Users</span>
+</script>
+        </div>
+    </div>
+
+</main>
+
+
+        <div class="row group">
+            <div class="col col-12">
+                <footer>
+                   <div class="container">
+                       <div class="col col-6 copyright">
+                           <p>Copyright © 2017 HRLab</p>
+                       </div>
+                   </div>
+               </footer>
+            </div>
+        </div>
+        <script type="text/javascript" src="/public/projectOne/js/plugins/jquery.min.js"></script>
+        <script type="text/javascript" src="/public/projectOne/js/plugins/underscore.min.js"></script>
+        <script type="text/javascript" src="/public/projectOne/js/plugins/backbone.min.js"></script>
+        <script type="text/javascript" src="/public/projectOne/js/plugins/marionette.js"></script>
+        <script src="/public/projectOne/js/main.js"></script>
+   </body>
+</html>
+

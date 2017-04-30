@@ -1,0 +1,20 @@
+$module: '.header';
+
+#{$module}{
+	background: $info-color;
+	display: block;
+	padding: $container-padding 0;
+    color: #fff;
+    &__container{
+	    width: 100%;
+	    max-width: 960px;
+	    margin: 0 auto;
+	    padding: 0 20px;
+    	&--logo{
+    		width: 150px;
+    		height: 66px;
+    		display: block;
+    		background: $light-color;
+    	}
+    }
+}

@@ -1,0 +1,15 @@
+/*
+  main.scss
+  author: giant ape
+  url: https://github.com/giantape
+*/
+
+// layout
+@import './inc/variables';
+@import './inc/layout';
+
+//Modules
+//@import 'modules/test';
+@import './modules/header';
+@import './modules/listItem';
+@import './modules/form';
